@@ -1,0 +1,20 @@
+[
+  [
+    {
+      "query": ["site:facebook.com", "\"potatoes\""],
+      "num": 100,
+      "page": 2,
+      "shuffle": false
+    },
+    "http://www.google.com/search?q=site%3Afacebook.com+%22potatoes%22&start=100&num=100"
+  ],
+  [
+    {
+      "query": ["\"oh yeah\""],
+      "num": 32,
+      "page": 4,
+      "shuffle": false
+    },
+    "http://www.google.com/search?q=%22oh+yeah%22&start=96&num=32"
+  ]
+]
