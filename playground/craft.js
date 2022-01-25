@@ -8,9 +8,8 @@ console.log(
             num: 100,
             page: 1,
             shuffle: true,
-        }
-    )
-
+        },
+    ),
 
     // exclude: ['lr', 'cr', 'gl', 'hl'],
-)
+);
