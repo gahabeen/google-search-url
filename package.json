@@ -9,6 +9,7 @@
   "dependencies": {
     "create-uule": "^1.0.3",
     "fast-shuffle": "^4.5.1",
+    "object-hash": "^2.2.0",
     "shorthash2": "^1.0.3"
   },
   "devDependencies": {

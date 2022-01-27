@@ -19,15 +19,16 @@ const input =  {
         num: 100,
         page: 1,
         shuffle: true, // shuffles query when array as well as queryparams order
+        signature: false // wether to include a unique signature for the url (won't matter if shuffled or not)
     }
 
-gsearch.craft(input)
+gsearch.craft(input).url
 // > http://google.com/search?num=100&cr=countryUS&hl=en&start=0&lr=lang_en&q=%22CEO%22+site%3Alinkedin.com+bank&uule=w%2BCAIQICIeRmxvcmlkYSxOZXcgWW9yayxVbml0ZWQgU3RhdGVz
 
-gsearch.craft(input)
+gsearch.craft(input).url
 // > http://google.com/search?start=0&lr=lang_en&cr=countryUS&num=100&uule=w%2BCAIQICIeRmxvcmlkYSxOZXcgWW9yayxVbml0ZWQgU3RhdGVz&q=site%3Alinkedin.com+%22CEO%22+bank&hl=en
 
-gsearch.craft(input)
+gsearch.craft(input).url
 // > http://google.com/search?q=bank+site%3Alinkedin.com+%22CEO%22&lr=lang_en&cr=countryUS&num=100&start=0&uule=w%2BCAIQICIeRmxvcmlkYSxOZXcgWW9yayxVbml0ZWQgU3RhdGVz&hl=en
 
 ```
