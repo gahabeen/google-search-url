@@ -1,6 +1,6 @@
 {
   "name": "google-search-url",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "Parse, sanitize and craft any Google Search URL",
   "main": "index.js",
   "keywords": [],
